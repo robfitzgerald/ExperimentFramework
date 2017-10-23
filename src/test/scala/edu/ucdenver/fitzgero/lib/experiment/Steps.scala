@@ -1,6 +1,6 @@
 package edu.ucdenver.fitzgero.lib.experiment
 
-import edu.ucdenver.fitzgero.lib.experiment.ExampleExperiment.{Config, GlobalLog, SyncStep}
+import edu.ucdenver.fitzgero.lib.experiment.ExampleExperiment._
 
 object Steps {
   val step1: SyncStep = ("My First Step", (conf: Config, log: GlobalLog) => {
