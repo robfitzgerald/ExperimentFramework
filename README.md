@@ -7,9 +7,6 @@ this is a simple framework designed to make it easier to manage stages of an exp
 we define an experiment:
 
 ```scala
-import scala.concurrent.ExecutionContext.Implicits.global
-import scala.concurrent.Future
-
 object ExampleExperiment extends Experiment with App {
   case class Config (n: Int)
 
